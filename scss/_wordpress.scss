@@ -1,0 +1,88 @@
+// FIX the wpadminbar issue
+
+@media screen and (max-width:600px){
+  #wpadminbar {
+    top:-46px;
+  }
+}
+
+
+/* Start to customize Starter */
+
+/* Starndard WordPress Image alignment */
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.aligncenter {
+  display:block;
+  margin: 1em auto;
+}
+
+
+
+// adjusting header
+h4.subheader {
+  margin-top: -1em;
+}
+
+
+
+// add some basic comment styles
+/*
+ol.commentlist {
+	margin-left: 0;
+	margin-top: 2em;
+	li {
+		list-style: none;
+		margin-bottom: 2em;
+	}
+		.comment-author img {
+			border-radius: 50%;
+			float: left;
+			margin: 0 1em 0 0;
+		}
+		.author-meta {
+			display: inline-block;
+		}
+			cite.fn {
+				@extend h4;
+				margin-right: 0.5em;
+			}
+		section.comment {
+			@include panel(white, 20px);
+		}
+			a.comment-reply-link {
+				float: right;
+				position: relative;
+				bottom: 1em;
+			}
+}
+*/
+
+
+// add some margin for images in post
+.container img {
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+// adjust search button on top-bar
+input.prefix.button {
+	line-height: 1;
+}
+
+// adjust search button on sideba
+#sidebar input.prefix.button {
+	line-height: 0.7;
+}
+
+.orbit-slide-number {
+	display: none;
+}
+

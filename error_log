@@ -1,0 +1,2 @@
+[09-Jul-2014 16:00:31] PHP Fatal error:  Call to undefined function  get_header() in /home2/robguest/public_html/wp-content/themes/RGE/index.php on line 1
+[16-Feb-2015 10:10:52] PHP Fatal error:  Call to undefined function  get_header() in /home2/robguest/public_html/wp-content/themes/RGE/index.php on line 1
