@@ -17,8 +17,8 @@
       </div>
       <div class="small-12 columns sponsor-images">
         <!--<a href="https://www.anz.com.au/personal/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/anz-logo-footer3.png" alt="ANZ" /></a>-->
-        <a href="http://www.nsw.gov.au/now" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/NSW-NOW.png" alt="NSW-NOW" /></a>
-        <a href="http://www.destinationnsw.com.au/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/DST_NSW.png" alt="DST_NSW" /></a>
+        <a href="http://www.nsw.gov.au/now" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logos2016/NSWGOV_MIH_White.png" alt="NSW-NOW" /></a>
+        <a href="http://www.destinationnsw.com.au/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logos2016/DST_NSW_SC_HOR_2L_NEG.png" alt="DST_NSW" /></a>
       </div>
   </footer>
 

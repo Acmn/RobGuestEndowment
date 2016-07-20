@@ -29,7 +29,7 @@
       <header>
         <h2 class="h5">SEE WHATS ON IN SYDNEY</h2>
       </header>
-      <a href="http://www.sydney.com/events" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/DNSW_Whats_OnSml.jpg" alt="Whats On" title="xxx" /></a>
+      <a href="http://www.sydney.com/events" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/DNSW_Whats_OnSml.jpg" alt="Whats On" title="Whats On in Sydney" /></a>
     <br /><br />
    </div>
   </div>
