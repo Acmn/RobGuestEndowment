@@ -18,7 +18,7 @@
         <a href="<?php bloginfo('url'); ?>/index.php/awards/rob-guest-endowment/" class="alt-button">Rob Guest Endowment Award</a>
         <a href="<?php bloginfo('url'); ?>/index.php/awards/musician-award/" class="alt-button">The Musician Award</a>
       <a href="<?php bloginfo('url'); ?>/index.php/awards/technical-award/" class="alt-button">The Technical Award</a>
-      <a href="<?php bloginfo('url'); ?>/index.php/awards/2016-awards/" class="button expand">Apply Now</a>
+      <!-- <a href="<?php bloginfo('url'); ?>/index.php/awards/2016-awards/" class="button expand">Apply Now</a> -->
     </div>
   </div>
 
