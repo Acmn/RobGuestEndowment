@@ -20,3 +20,36 @@
     }   
   }
 }
+
+#actor{
+
+  margin-bottom:2rem;
+  
+  .actor-navigation{
+    display:flex;
+    justify-content:flex-end;
+    a{
+      padding-left:1rem;
+    }
+  }
+          
+  .actor-information{
+    .wrapper-info{
+      margin:1rem 0;
+    }
+    h3, h6, img{      
+      margin-bottom:.5rem;
+    }
+    a{
+      color:black;
+      text-decoration:none;
+      &:hover{
+        text-decoration:underline;
+      }
+    }
+    object{      
+      padding-bottom:.5rem;
+    }
+
+  }
+}

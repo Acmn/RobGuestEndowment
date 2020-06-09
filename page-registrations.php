@@ -45,7 +45,7 @@
             <?php if($entries){ 
               foreach($entries as $entry){
                 $id = $entry['id'];
-                $link = get_bloginfo('url').'/actor/?id='.$id;
+                $link = get_bloginfo('url').'/index.php/actor/?id='.$id;
                 ?>
                 <?php  ?>
                 <tr>
