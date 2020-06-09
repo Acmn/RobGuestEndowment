@@ -1,9 +1,9 @@
   <?php if(is_front_page()){ ?>
-    <div class="row">
+    <!--<div class="row">
         <a href="http://www.sydney.com/things-to-do?utm_source=eventreferrer&utm_medium=banner&utm_campaign=robguest" target="_blank">
           <img src="<?php bloginfo('template_url'); ?>/img/dnsw/dnsw.jpg" alt="Destination NSW" data-interchange="[<?php bloginfo('template_url'); ?>/img/dnsw/dnsw.jpg, (only screen and (min-width: 1px))], [<?php bloginfo('template_url'); ?>/img/dnsw/dnsw-med.jpg, (only screen and (min-width: 480px))], [<?php bloginfo('template_url'); ?>/img/dnsw/dnsw-large.jpg, (only screen and (min-width: 800px))]">
         </a>
-      </div>
+      </div>-->
       <?php } ?>
   <footer class="row" id="mainFooter">
       
@@ -16,9 +16,9 @@
         <a href="<?php bloginfo('url'); ?>/index.php/terms-of-use/">Terms of Use</a>
       </div>
       <div class="small-12 columns sponsor-images">
-        <!--<a href="https://www.anz.com.au/personal/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/anz-logo-footer3.png" alt="ANZ" /></a>-->
+        <!--<a href="https://www.anz.com.au/personal/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/anz-logo-footer3.png" alt="ANZ" /></a>
         <a href="http://www.nsw.gov.au/now" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logos2016/NSWGOV_MIH_White.png" alt="NSW-NOW" /></a>
-        <a href="http://www.destinationnsw.com.au/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logos2016/DST_NSW_SC_HOR_2L_NEG.png" alt="DST_NSW" /></a>
+        <a href="http://www.destinationnsw.com.au/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/img/logos2016/DST_NSW_SC_HOR_2L_NEG.png" alt="DST_NSW" /></a>-->
       </div>
   </footer>
 

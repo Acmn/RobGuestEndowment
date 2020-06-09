@@ -1,6 +1,6 @@
 jQuery(document).ready(function( $ ) {
 
-	  // Cast Page
+    // Cast Page
   
   if ($('.cast-list').length > 0) {
     contentDiv();
@@ -79,7 +79,5 @@ jQuery(document).ready(function( $ ) {
   }
   
 
-  	
+    
 });
-
-

@@ -2,10 +2,11 @@ module.exports = {
   dist: {
     options: {
       // cssmin will minify later
-      style: 'expanded'
+      style: 'expanded',
+      trace : 'true'
     },
     files: {
-      'css/style.css': 'scss/style.scss'
+      'css/style.css': ['scss/style.scss']
     }
   }
 }

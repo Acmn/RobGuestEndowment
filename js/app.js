@@ -13,6 +13,9 @@ jQuery(document).ready(function( $ ) {
   
   $('.entry-content').fitVids();
   
+    $(document).ready( function () {
+        $('#myTable').DataTable();
+    } );
   
   /* Flex box equal height fallback  */
 	

@@ -1,0 +1,22 @@
+#myTable_wrapper{
+  margin-bottom:2rem;
+  select{
+    width:54px;
+    margin-left:4px;
+    margin-right:4px;    
+  }
+
+  #myTable{
+    font-size:80%;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    
+    th{
+      padding: 8px 10px;
+    }
+
+    tr.even{
+      background:#f3f3f3;
+    }   
+  }
+}

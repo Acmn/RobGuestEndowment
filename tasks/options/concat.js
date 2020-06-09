@@ -12,20 +12,23 @@ module.exports = {
 		//'bower_components/foundation/js/foundation/foundation.joyride.js',	
 		//'bower_components/foundation/js/foundation/foundation.magellan.js',
 		//'bower_components/foundation/js/foundation/foundation.offcanvas.js',
-		//'bower_components/foundation/js/foundation/foundation.orbit.js',
+		'bower_components/foundation/js/foundation/foundation.orbit.js',
 		//'bower_components/foundation/js/foundation/foundation.reveal.js',
 		//'bower_components/foundation/js/foundation/foundation.slider.js',
 		//'bower_components/foundation/js/foundation/foundation.tab.js',
 		//'bower_components/foundation/js/foundation/foundation.tooltip.js',
-		//'bower_components/foundation/js/foundation/foundation.topbar.js',
+		'bower_components/foundation/js/foundation/foundation.topbar.js',
 		'bower_components/foundation/js/vendor/placeholder.js',
 		//'bower_components/foundation/js/vendor/jquery.cookie.js',
 		'bower_components/foundation/js/vendor/fastclick.js',
-		//'bower_components/fitvids/jquery.fitvids.js',
-		//'js/jquery.fancybox.js',
+		'bower_components/fitvids/jquery.fitvids.js',
+		'js/jquery.fancybox.js',
 		//'js/jquery.fancybox-media.js',
 		//'js/responsiveslides.js',
-		'js/app.js'
+		'js/app.js',
+		'js/datatables.min.js',
+		//'js/datatables.js',
+		'js/person-box.js'
     ],
     dest: 'js/build/production.js'
   }

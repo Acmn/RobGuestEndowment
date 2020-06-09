@@ -19,7 +19,7 @@
   				  <section class="row">
   				    <div class="small-12 columns">
       				  <h2><?php echo $gallery['title']; ?></h2>
-      				  <?php echo $gallery['descriotion']; ?>
+      				  <?php echo $gallery['description']; ?>
       				  <?php 
                     $images = null;
                     $images = $gallery['images'];
