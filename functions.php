@@ -31,11 +31,15 @@ function starter_theme_support() {
 	));
 
 }
-	
-	
+		
 add_action('after_setup_theme', 'starter_theme_support'); 
 
-
+/*
+ * Add support ACF Options if available
+ */
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page();
+}
 
 // return entry meta information for posts, used by multiple loops.
 function entry_meta() {
