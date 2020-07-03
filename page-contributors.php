@@ -85,26 +85,27 @@
 				    </div>
 				  </section>
           <section class="row">
-				    <div class="small-12 columns">
-  				    <?php
-  				      $in_kind = get_field('in_kind_sponsors');
-  				      if($in_kind){ ?>
-  				       <div class="sponsors">
-  				       <?php
-    				      foreach($in_kind as $partner){ ?>
-    				      <div class="partner in-kind">
-    				        <a href="<?php echo $partner['link']; ?>" target="_blank">
-    				          <img src="<?php echo $partner['image']; ?>" />
-    				        </a>
-    				      </div>
-      				    <?php
-    				      } ?>
-  				     </div>
-  				     <?php
-  				      }
-  				     ?>
-				    </div>
-				  </section>
+            <div class="small-12 columns">
+              <?php
+                $minor_sponsors = get_field('in_kind_sponsors');
+                if($minor_sponsors){ ?>
+                 <div class="sponsors">
+                 <?php
+                  foreach($minor_sponsors as $partner){ ?>
+                  <div class="partner small-12 medium-6 columns">
+                    <a href="<?php echo $partner['link']; ?>" target="_blank">
+                      <img src="<?php echo $partner['image']; ?>" />
+                    </a>
+                  </div>
+                  <?php
+                  } ?>
+               </div>
+               <?php
+                }
+               ?>
+            </div>
+          </section>
+          
 			</div>
 			<hr>
 		</article>

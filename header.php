@@ -23,7 +23,7 @@
 	
 	
 	<!-- Favicon and Feed -->
-	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/icon.png">
+	<!--<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/icon.png">-->
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
 
 	<?php wp_head(); ?>
@@ -60,7 +60,7 @@
   		  </li>
   		  <?php } // end if instalink ?>
   		  <li>
-  			  <a href="/contact" class="contact"> | Contact</a>
+  			  <a href="/index.php/contact/" class="contact"> | Contact</a>
   		  </li>
   			</li>
 			</ul>

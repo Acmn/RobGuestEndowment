@@ -130,7 +130,7 @@
                   $width = '640';
                   $height = '360';                     
                   //echo the embed code and wrap it in a class
-                  echo '<div class="vimeo-article"><iframe src="http://player.vimeo.com/video/'.$url.'?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
+                  echo '<div class="vimeo-article"><iframe src="https://player.vimeo.com/video/'.$url.'?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
                 ?>
               
               <?php } else { ?>
@@ -167,13 +167,12 @@
                 <?php 
                 $cvUrl = $entry['12'];
                 if($cvUrl) { ?>
+                  
                   <object class="hidden-print" data="<?php echo $cvUrl; ?>" type="application/pdf" width="100%" height="100%">
                     <p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="<?php echo $cvUrl; ?>" target="_blank">click here to download the PDF file.</a></p>           
                   </object>
 
-                  <?php 
-                  $cvUrl = $entry['12']; ?>
-                  <p class="text-right"><small><a href="<?php echo $cvUrl ?>" target="_blank" download>Download Resume</a></p>                
+                  <p class="text-right"><small><a href="<?php echo $cvUrl; ?>" target="_blank" download>Download Resume</a></p>                
                         
                 <?php } else { ?>
                   <h1>Oops. There doesn't seem to be an actor here.</h1>
