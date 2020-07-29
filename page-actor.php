@@ -119,7 +119,7 @@
             <div class="small-12 columns">
 
               <h6>Video:</h6>
-              
+
               <?php if (strpos($entry['17'], 'vimeo') !== false) { ?>
               
                 <?php //store the URL into a variable
@@ -130,6 +130,9 @@
                   $width = '640';
                   $height = '360';                     
                   //echo the embed code and wrap it in a class
+
+                  echo '<p><b>URL: <a href="https://player.vimeo.com/video/'.$url.'" target="_black">https://player.vimeo.com/video/'.$url.'</a></b>';
+
                   echo '<div class="vimeo-article"><iframe src="https://player.vimeo.com/video/'.$url.'?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="'.$width.'" height="'.$height.'" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
                 ?>
               
@@ -150,6 +153,8 @@
                   $width = '640';
                   $height = '360';               
                   //echo the embed code. You can even wrap it in a class
+                  echo '<p><b>URL: <a href="'.$url.'" target="_black">'.$url.'</a></b>';
+
                   echo '<div class="youtube-article"><iframe class="dt-youtube" width="' .$width. '" height="'.$height.'" src="//www.youtube.com/embed/'.$id.'" frameborder="0" rel="0" modestbranding="1" allowfullscreen></iframe></div>';
                 ?>
 

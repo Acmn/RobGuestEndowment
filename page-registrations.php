@@ -55,17 +55,19 @@
                   <td><a href="<?php echo $link; ?>" target="_blank"><?php echo $entry['2']; ?></a></td>
 
                   <td><a href="<?php echo $link; ?>" target="_blank">
+                    
                     <?php 
                     $headshot = $entry['13']; 
                     $file_parts = pathinfo($headshot);
                     if ($file_parts["extension"] == "pdf") { ?>
-                      <p><a href="<?php echo $headshot; ?>">VIEW PDF file.</a></p>
-                      <object data="<?php echo $headshot; ?>" type="application/pdf" id="small-pdf-box" class="print-clear" style="width:150px;height:150px;"></object>
+                      <p style="margin-bottom: 8px;"><a href="<?php echo $headshot; ?>"><small>VIEW PDF file.</small></a></p>
+                      <object data="<?php echo $headshot; ?>" type="application/pdf" id="small-pdf-box" class="print-clear" style="width:100px;height:125px;"></object>
                       <?php  
                     } else {
                       ?>
                       <img class="center-block img-responsive" src="<?php echo $headshot; ?>" alt="" style="max-width:100px;" />
                     <?php } ?>
+
                   </a></td>
               </tr>
               <?php
