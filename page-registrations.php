@@ -17,7 +17,7 @@
         <?php the_content(); ?>
         
         <?php
-        $formid = 13;
+        $formid = 14;
         $form_count = RGFormsModel::get_form_counts($formid);
                 // Displaying Total Entries
         echo '<p><b>TOTAL ENTRIES:</b> '.$form_count['total'].'</p>';
@@ -26,7 +26,7 @@
         $sorting = array('key' => 'id', 'direction' => "ASC" );
         $paging = array('offset' => 0, 'page_size' => 9999 );
         $total_count = 0;
-        $entries = GFAPI::get_entries('13', $search_criteria, $sorting, $paging, $total_count);
+        $entries = GFAPI::get_entries($formid, $search_criteria, $sorting, $paging, $total_count);
                   // $total_count now contains the total number of entries matching the search criteria. This is useful for displaying pagination controls.
 
         ?>
@@ -38,7 +38,7 @@
               <th>First Name</th>
               <th>Last Name</th>
               <th>Email</th>
-              <th>Image</th>
+              <!--<th>Image</th>-->
             </tr>
           </thead>
           <tbody>
@@ -54,7 +54,7 @@
                   <td><a href="<?php echo $link; ?>" target="_blank"><?php echo $entry['1.6']; ?></a></td>
                   <td><a href="<?php echo $link; ?>" target="_blank"><?php echo $entry['2']; ?></a></td>
 
-                  <td><a href="<?php echo $link; ?>" target="_blank">
+                  <!--<td><a href="<?php echo $link; ?>" target="_blank">
                     
                     <?php 
                     $headshot = $entry['13']; 
@@ -68,7 +68,7 @@
                       <img class="center-block img-responsive" src="<?php echo $headshot; ?>" alt="" style="max-width:100px;" />
                     <?php } ?>
 
-                  </a></td>
+                  </a></td>-->
               </tr>
               <?php
               }// end for each 
